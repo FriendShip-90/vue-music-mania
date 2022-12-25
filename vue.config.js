@@ -1,5 +1,10 @@
-module.exports = {
-    devServer: {
-        proxy: 'http://www.maniadb.com/api/album/'
-    }
-}
+// module.exports = {
+//     devServer: {
+//         proxy: {
+//             '/api': {
+//                 target: 'http://www.maniadb.com',
+//                 changeOrigin: true
+//             }
+//         }
+//     }
+// }

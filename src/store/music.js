@@ -15,7 +15,7 @@ export default {
     },
     actions: {
         async createMusic( {commit} ){
-            const res = await axios.get(`https://www.maniadb.com/api/album/712017/?key=example&v=0.5`)
+            const res = await axios.get(`http://www.maniadb.com/api/album/712017/?key=example&v=0.5`)
             .then( (ress) => {
                 console.log("SUCCESS");
                 console.log(ress);
